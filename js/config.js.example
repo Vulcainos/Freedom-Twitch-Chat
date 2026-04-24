@@ -1,0 +1,50 @@
+const CONFIG = {
+  // Indiquer le pseudo Twitch de sa chaine (par exemple "bipeo", ou "vulcainos", ou autre)
+  channel: "nomdechainetwitch",
+
+  // Option twitch. Nécessaire pour avoir les badges. Pas besoin pour les emotes
+  twitch: {
+    // Activer les badges des utilisateurs (nécessite clientId et clientSecret)
+    badges: false,
+    // Client-ID de votre application Twitch (https://dev.twitch.tv/console/apps)
+    clientId: "",
+    // Client Secret de votre application Twitch
+    clientSecret: "",
+  },
+
+  // Options de style :
+  // Les couleurs acceptent le mots clés, couleur hexadécimale rgb au format rgb(255,255,255) et rgba (transparence) format rgba(255,255,255,1)
+  // Les arrondis et épaisseur de bordure peuvent être défini pour tous ou unitairement. "10px" donnera 10px à chaque coin, "0px 6px 16px 10px" donnera des arrondis à chaque coin différent dans l'ordre "hautGauche hautDroit basDroit hautDroit"
+  style: {
+    // Style de la bulle, accepte seulement deux valeurs : transparent | trouble | opaque
+    bubbleStyle: "opaque",
+    // Couleur du texte des bulles de chat
+    textColor: "#2061B6",
+    // Couleur du fond des bulles de chat
+    backgroundColor: "#cde3ff",
+    // Rondeur de bordure, plus la valeur est élevée, plus la rondeur est intense
+    borderRadius: "10px",
+    // Épaisseur de la bordure, plus la valeur est élevée, plus la bordure est épaisse : 0px pour aucune bordure
+    borderWidth: "2px",
+    // Épaisseur de la bordure du pseudo, plus la valeur est élevée, plus la bordure est épaisse : 0px pour aucune bordure
+    displayNameBorderWidth: "2px",
+    // Rondeur de la bordure du pseudo, plus la valeur est élevée, plus la rondeur est intense
+    displayNameBorderRadius: "2px 8px",
+    // Espace en hauteur entre le pseudo et la bulle de chat (valeur en plus ou moins)
+    displayNameGap: "4px",
+    // Taille de la police
+    fontSize: "18px",
+  },
+
+  // Options de message :
+  chat: {
+    // Position d'apparition du chat, accepte seulement deux valeurs : "haut" | "bas"
+    apparition: "bas",
+    // Position des bulles de chat, accepte seulement trois valeurs : "gauche" | "droite" | "centre"
+    position: "gauche",
+
+    // Delais en ms avant qu'un message disparaît
+    // Si vous mettez -1, le message ne disparaîtra jamais
+    disappearDelay: 8000,
+  },
+};
