@@ -32,6 +32,9 @@ https://youtu.be/XvF4wcw7Qcs
 const CONFIG = {
   // Indiquer le pseudo Twitch de sa chaine (par exemple "bipeo", ou "vulcainos", ou autre)
   channel: "nomdechainetwitch",
+  
+  // Activer le mode test pour générer des messages de test aléatoires sans se connecter à Twitch (true ou false)
+  isTestMode: false,
 
   // Option twitch. Nécessaire pour avoir les badges. Pas besoin pour les emotes
   twitch: {
@@ -60,7 +63,7 @@ const CONFIG = {
     // Épaisseur de la bordure du pseudo, plus la valeur est élevée, plus la bordure est épaisse : 0px pour aucune bordure
     displayNameBorderWidth: "2px",
     // Rondeur de la bordure du pseudo, plus la valeur est élevée, plus la rondeur est intense
-    displayNameBorderRadius: "2px 8px",
+    displayNameBorderRadius: "4px",
     // Espace en hauteur entre le pseudo et la bulle de chat (valeur en plus ou moins)
     displayNameGap: "4px",
     // Taille de la police
