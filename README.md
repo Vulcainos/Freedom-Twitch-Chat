@@ -3,7 +3,6 @@ Overlay Twitch pour afficher le chat sur son stream sans dépendre de personne n
 
 Projet repris de https://github.com/Bipeo-dev/chat-bubble-overlay
 
-
 ## Fonctionnalités
 - Aucune dépendance, une fois le fichier chargé sur OBS, fonctionne de lui-même
 - Personnalisable simplement, que ce soit en termes de position, de taille et de couleur. Aucune compétence de codage requise
@@ -11,6 +10,8 @@ Projet repris de https://github.com/Bipeo-dev/chat-bubble-overlay
 - Supporte les badges Twitch mais requit une authentification.
 - +1000 aura (c'est quoi ce pain les djeunes)
 
+## Vidéo tuto d'installation et de configuration 
+https://youtu.be/XvF4wcw7Qcs
 
 ## Installation OBS
 - Extraire l'archive de l'overlay dans le dossier de votre choix
